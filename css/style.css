@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+}
+
+.contenedor{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.menu-en-alto{
+    padding-right: 25px;
+    color: #000;
+    background-color: #fff;
+    
+}
+
+.correo{
+    padding-top: 25px;
+}
+
+.numero{
+    padding-top: 25px;
+}
+
+
+.menu-en-alto .numero{
+    float: right;
+    margin: 0 16px 0 0;
+}
+
+.menu-en-alto .correo{
+    float: right;
+    margin: 0 16px 0 0;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+
+    
+}
+
+.logo img{
+    width: 69%;
+}
+
+.img-img a{
+    width: 59%;
+}
+
+.menu-del-medio{
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+}
+
+.menu-del-medio a{
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-del-medio a:hover{
+    background: #F16529 ;
+    border-radius: 10px;
+}
+
+.carrusel{
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(0, 31, 116);
+    background: #fff;
+        border-radius: 10px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height:600px;
+    box-shadow: 5px 5px 5px rgb(0, 31, 116);
+  }
+
+
+
+  .galeria-productos{
+      padding: 60px;
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:rgb(236, 234, 234);
+    
+}
+
+.galeria-productos .galeria-img{
+    position: relative;
+    overflow: hidden;
+    width: 28%;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 5px rgb(0, 31, 116);
+    border-radius: 10px;
+}
+
+.galeria-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    vertical-align: top;
+
+}
+
+
+.galeria-img{
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.galeria-img:hover{
+    transform: scale(1.1);
+}
+
+.extra-galeria{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 46, 0.4);
+}
+
+
+.extra-galeria p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff ;
+}
+
+.extra-galeria .a-2 a{
+    text-align: center;
+    cursor: pointer;
+    background: rgba(0, 0, 46, 1);
+    border: 1px solid rgb(0, 0, 0);
+    color: #fff;
+    padding: 6px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: auto;
+    display: table;
+    margin: 10px auto;
+    position: relative;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.extra-galeria .a-2 a:hover{
+    background: rgba(0, 0, 46, 0.6);
+    color: #ffffff;
+}
+
+.extra-galeria h3{
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    background:  #000046;
+}
+
+.extra-galeria a{
+    text-decoration: none;
+}
+
+.bajo{
+    padding-top: 350px;
+    padding-bottom: 50px;
+
+}
+
+
+.contenedor-quienes-somos{
+background:#e0e0e0;
+color: #000;
+}
+
+.contenedor-quienes-somos .titulo{
+    margin: 25px;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.contenedor-quienes-somos .titulo h1{
+    font-size: 45px;
+    text-shadow:1px 1px 1px rgb(0, 0, 0);
+    color: #000;
+}
+
+.text{
+    position: relative;
+
+}
+
+
+ .text .img-img{
+    width: 50%;
+    margin: 25px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+.text .img-img img{
+     box-shadow: 5px 5px 5px #000046;
+    width: 100%;
+}
+
+
+ .text .img-img .texto-quienes{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text .texto-quienes{
+    height: 378px;
+}
+
+
+.text .texto-quienes h4{
+    text-align: start;
+    margin-right: 25px;
+    width: 46%;
+    padding: 20px;
+    background-color: #000046;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000046;
+}
+
+.text .texto-quienes li{
+    text-align: start;
+    color:#fff;
+    max-width: 95%;
+    padding: 20px;
+    font-size: 22px;
+    max-height: 100%;
+}
+
+@media screen{
+    
+}
+
+
+.paquetes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 80px;
+    background:#e0e0e0;
+    
+}
+
+.paquetes .combos-paquetes{
+    width: 28%;
+    background: #000046; 
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 46);
+}
+
+
+.combos-paquetes h4{
+    margin-bottom: 15px;
+    color:orangered;
+}
+
+.combos-paquetes p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.combos-paquetes li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: start;
+    padding-left: 23px;
+}
+
+
+footer{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 35px 0;
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+
+footer .contactar{
+    padding-left: 0px;
+    color: rgb(255, 255, 255);
+    width: 48%;
+    height: 250px;
+    text-align: start;
+    border-right: 10px  dotted rgba(0, 0, 0, 1);
+}
+
+.contactar h1{
+    text-align: center;
+}
+
+
+.contactar h4{
+    padding-left: 50px;
+    padding-top: 20px;
+    color:orangered;
+    font-size: 30px;
+}
+
+.contactar .ccont{
+    padding-left: 50px;
+    padding-top: 25px;
+    position: relative;
+
+}
+
+.ccont li{
+    font-size: 25px;
+}
+
+.img-footer img{
+    height: 245px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    padding-left: 190px;
+}
+
+
+.formulario{
+    width: 49%;
+    padding-left: 30px;
+}
+
+.contact h3{
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.name{
+    color: #fff;
+    font-size: 21px;
+}
+
